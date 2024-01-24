@@ -16,3 +16,11 @@
 # 5 raises to the power of 4 is: 625 
 # i.e. (5 *5 * 5 *5 = 625)
 
+
+case_1_base = 2
+case_1_exp = 5
+result_case_1 = calculate(case_1_base, case_1_exp)
+
+case_2_base = 5
+case_2_exp = 4
+result_case_2 = calculate(case_2_base, case_2_exp)
