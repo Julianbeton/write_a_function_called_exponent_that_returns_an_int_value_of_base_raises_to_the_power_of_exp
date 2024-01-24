@@ -22,12 +22,15 @@ def calculate(base, exponent):
     else:
         return base * calculate(base, exponent - 1)
 
+def display_result(base, exponent, result):
+    print(f"\033[1;32;40m{base} raised to the power of {exponent} is: {result}")
 
 case_1_base = 2
 case_1_exp = 5
 result_case_1 = calculate(case_1_base, case_1_exp)
-
+display_result(case_1_base, case_1_exp, result_case_1)
 
 case_2_base = 5
 case_2_exp = 4
 result_case_2 = calculate(case_2_base, case_2_exp)
+display_result(case_2_base, case_2_exp, result_case_2)
